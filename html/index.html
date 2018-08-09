@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Dynamic Clock</title>
+	<!-- Personal Style Sheet for WebApp -->
+	<link rel="stylesheet" type="text/css" href="../styles/Style.css">
+	<!-- Link to FlatIcon CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+	 crossorigin="anonymous">
+	 <!-- Link to fonts used on this app -->
+	 <link href="https://fonts.googleapis.com/css?family=Roboto|Sunflower:300" rel="stylesheet">
+</head>
+
+<body>
+	<div id="colorPicker">
+		<div class="gridContainer">
+			<div class="titleContent">
+				<h1>Color Picker</h1>
+			</div>
+			<div class="colorSwathe">
+				<div class="colorBlock cell0" id="f442b0" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #f442b0</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+
+					<!-- <p>rgb(244, 66, 176)</p> -->
+				</div>
+				<div class="colorBlock cell1" id="a941f4" onclick="selectColor(this)">
+					<div class="textBox">
+						<p id="test">Color: #a941f4</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+				<div class="colorBlock cell2" id="5e41f4" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #5e41f4</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+				<div class="colorBlock cell3" id="7f67f7" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #7f67f7</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+				<div class="colorBlock cell4" id="56b8ff" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #56b8ff</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+				<div class="colorBlock cell5" id="31e0b4" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #31e0b4</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+				<div class="colorBlock cell6" id="54c4a8" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #54c4a8</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+				<div class="colorBlock cell7" id="30a35a" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #30a35a</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+				<div class="colorBlock cell8" id="4ca22f" onclick="selectColor(this)">
+					<div class="textBox">
+						<p>Color: #4ca22f</p>
+					</div>
+					<div class="checkBox">
+						<i class="fas fa-check"></i>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="clock">
+		<div class="clock-face">
+			<div class="hand hour-hand"></div>
+			<div class="hand min-hand"></div>
+			<div class="hand second-hand"></div>
+		</div>
+		
+	</div>
+
+	<script src="../js/Script.js"></script>
+	<script src="../js/clock.js"></script>
+</body>
+
+</html>
